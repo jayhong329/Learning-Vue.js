@@ -1,6 +1,7 @@
 <script setup>
 import FirstComponent from './components/FirstComponent.vue';
 import SecondComponent from './components/SecondComponent.vue';
+import ButtonComponent from './components/ButtonComponent.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import SecondComponent from './components/SecondComponent.vue';
 <!-- 按下 Tab 鍵 -->
 <FirstComponent></FirstComponent>
 <SecondComponent></SecondComponent>
+<ButtonComponent></ButtonComponent>
 </template>
 
 <style scoped>

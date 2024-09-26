@@ -7,6 +7,7 @@ const message = ref("響應式互動")
 <template>
     <div>
         <h2>My Second Component 這是第二個組件</h2>
+        <br>
         <p>Composition API</p>
         <input type="text" v-model="message">
         <p>{{ message }}</p>
