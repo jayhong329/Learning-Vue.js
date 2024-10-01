@@ -1,7 +1,7 @@
 <script setup>
 import FirstComponent from './components/FirstComponent.vue';
 import SecondComponent from './components/SecondComponent.vue';
-import ButtonComponent from './components/ButtonComponent.vue';
+import ButtonCount from './components/ButtonCount.vue';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import ButtonComponent from './components/ButtonComponent.vue';
 <!-- 按下 Tab 鍵 -->
 <FirstComponent></FirstComponent>
 <SecondComponent></SecondComponent>
-<ButtonComponent></ButtonComponent>
+<ButtonCount></ButtonCount>
 </template>
 
 <style scoped>
