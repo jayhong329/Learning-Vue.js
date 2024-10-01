@@ -12,6 +12,13 @@ import { ref } from 'vue';
         'Vue 4 - The Mystery'
     ]
      })
+
+
+     const id = ref(10)
+     const homeUrl = "http://www.google.com.tw"
+     const isDisabled = ref(true)
+
+
 </script>
 
 <template>
@@ -27,6 +34,11 @@ import { ref } from 'vue';
         <p>星期{{week[2]}}</p>
         <p>星期{{week[new Date().getDay()]}}</p>
         <p>出版了書籍：{{author.books.length > 0 ? '是':'否'}}</p>
+        <hr>
+        <!-- 屬性繫節 -->
+        <p>ID: {{ id }}</p>
+        <hr>
+        <button :disabled = "isDisabled" >click</button>
     </div>
 </template>
 
